@@ -77,10 +77,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &kp Q  &kp W  &kp E         &kp R        &kp T        &kp Y          &kp U         &kp I        &kp O    &kp P
-              &kp A  &kp S  &mt LCTRL D   &mt LSHFT F  &kp G        &kp H          &mt RSHFT J   &mt RCTRL K  &kp L    &kp SEMICOLON
-&kp QUESTION  &kp Z  &kp X  &kp C         &kp V        &kp B        &kp N          &kp M         &kp COMMA    &kp DOT  &kp SLASH      &kp SINGLE_QUOTE
-                            &kp LEFT_GUI  &lt 1 TAB    &kp SPACE    &kp BACKSPACE  &lt 2 ESCAPE  &kp ENTER
+              &kp Q  &kp W  &kp E         &kp R        &kp T              &kp Y        &kp U        &kp I        &kp O    &kp P
+              &kp A  &kp S  &mt LCTRL D   &mt LSHFT F  &kp G              &kp H        &mt RSHFT J  &mt RCTRL K  &kp L    &kp SEMICOLON
+&kp QUESTION  &kp Z  &kp X  &kp C         &kp V        &kp B              &kp N        &kp M        &kp COMMA    &kp DOT  &kp SLASH      &kp SINGLE_QUOTE
+                            &kp LEFT_GUI  &kp ESCAPE   &lt 1 BACKSPACE    &lt 2 SPACE  &kp TAB      &kp ENTER
             >;
         };
 
@@ -103,10 +103,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp ESC    &bt BT_CLR  &kp UP    &kp LESS_THAN     &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N7        &kp N8        &kp N9        &kp KP_PLUS
-            &kp LSHFT  &kp LEFT    &kp DOWN  &kp GREATER_THAN  &kp LBKT                &kp RBKT               &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_MINUS
-&caps_word  &kp DEL    &kp PG_UP   &kp CAPS  &trans            &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp SLASH
-                                   &trans    &trans            &trans                  &kp EQUAL              &kp KP_N0     &kp PERIOD
+            &trans  &trans  &trans  &kp LESS_THAN     &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N7        &kp N8        &kp N9        &kp KP_PLUS
+            &trans  &trans  &trans  &kp GREATER_THAN  &kp LBKT                &kp RBKT               &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_MINUS
+&caps_word  &trans  &trans  &trans  &trans            &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp SLASH
+                            &trans  &trans            &trans                  &kp EQUAL              &kp KP_N0     &kp PERIOD
             >;
         };
 
@@ -129,10 +129,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp HOME      &kp UP            &kp END            &kp DQT
-        &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp LEFT      &kp DOWN          &kp RIGHT          &kp RA(O)
-&trans  &trans    &trans  &trans    &trans    &trans       &kp GRAVE  &kp ASTERISK  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSLH   &trans
-                          &trans    &trans    &mo ADJ      &trans     &trans        &trans
+        &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET      &kp HOME        &kp UP     &kp END    &trans
+        &trans    &trans  &trans    &trans    &trans       &kp AMPERSAND  &kp LEFT        &kp DOWN   &kp RIGHT  &kp COLON
+&trans  &trans    &trans  &trans    &trans    &trans       &kp ASTERISK   &kp UNDERSCORE  &kp GRAVE  &kp TILDE  &kp BSLH   &kp DOUBLE_QUOTES
+                          &trans    &trans    &mo ADJ      &trans         &trans          &trans
             >;
         };
 
